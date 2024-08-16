@@ -1,0 +1,85 @@
+.popular-section {
+    background-color: brown;
+    display: flex;
+    min-height: 672px;
+    max-height: 672px;
+    height: 100%;
+    position: relative;
+}
+
+.popular-section-title {
+    position: absolute;
+    left: 85px;
+    top: 129px;
+    color: rgb(255, 255, 255);
+    font-family: "Cormorant Infant";
+    font-style: italic;
+    font-size: 250px;
+    font-weight: 400;
+    opacity: 0.05;
+    line-height: 56px;
+}
+
+.popular-section-left {
+    width: 88%;
+    background-color: #417A82;
+}
+
+.popular-section-right {
+    width: 12%;
+    background-color: #052E4C;
+}
+
+.popular-section-left-img-blocks {
+    padding-left: 88px;
+    padding-top: 192px;
+    display: grid;
+    grid-template-columns: 1.23fr 1.23fr 1fr 1fr;
+}
+
+.popular-section-left-img-blocks__item_one {
+    background-image: url('../img/png/image\ girl.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 240px;
+    max-height: 240px;
+    height: 100%;
+    max-width: 616px;
+    width: 100%;
+    grid-column: 1/3;
+}
+
+.popular-section-left-img-blocks__item_two {
+    background-image: url('../img/png/roll.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 480px;
+    max-height: 480px;
+    height: 100%;
+    max-width: 504px;
+    width: 100%;
+    grid-column: 3 / 5;
+    grid-row: 1 / 3;
+}
+
+.popular-section-left-img-blocks__item_three {
+    background-image: url('../img/png/vertical.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 240px;
+    max-height: 240px;
+    height: 100%;
+    max-width: 308px;
+    width: 100%;
+}
+
+.popular-section-left-img-blocks__item_four {
+    background-image: url('../img/png/day.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 240px;
+    max-height: 240px;
+    height: 100%;
+    max-width: 308px;
+    width: 100%;
+}
