@@ -9,7 +9,9 @@
     max-width: 1368px;
     width: 100%;
     min-height: 800px;
+    max-height: 800px;
     height: 100%;
+    padding: 56px 103px 53px 87px;
 }
 
 .header-menu {
@@ -43,15 +45,17 @@
     text-align: center;
 }
 
-.header-menu-list__burger{
+.header-menu-list__burger {
     padding-top: 46px;
     cursor: pointer;
 }
-.header-menu-links{
+
+.header-menu-links {
     cursor: pointer;
 
 }
-.header-menu-list__item-shutter{
+
+.header-menu-list__item-shutter {
     display: inherit;
     align-items: inherit;
     flex-direction: column;
@@ -59,6 +63,113 @@
     padding-top: 48px;
 }
 
-.header-menu-list__item-search{
-    padding-top: 145px;
+.header-menu-list__item-search {
+    padding-top: 140px;
+}
+
+.header-slider {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-slider-right-descr {
+    color: rgb(5, 46, 76);
+    font-family: "Cormorant Infant";
+    font-size: 78px;
+    font-weight: 300;
+    text-transform: uppercase;
+    padding-top: 72px;
+}
+
+.header-slider-right-descr__span {
+    font-weight: 600;
+    font-style: italic;
+}
+
+.header-slider-right-descr-lorem {
+    padding-top: 24px;
+    color: rgb(5, 46, 76);
+    font-family: "PT Sans";
+    font-size: 16px;
+    font-weight: 400;
+    max-width: 477px;
+    width: 100%;
+    line-height: 21px;
+}
+
+.header-calk_btn {
+    padding: 8px 24px;
+    background-color: #FFFFFF;
+    color: rgb(5, 46, 76);
+    font-family: "PT Sans";
+    font-size: 13px;
+    font-weight: 400;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: none;
+    margin-top: 48px;
+}
+
+.header-slider-pages {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    padding-top: 169px;
+    max-width: 77px;
+    width: 100%;
+}
+
+.header-slider-pages-numbers {
+    color: rgb(5, 46, 76);
+    font-family: "PT Sans";
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.header-slider-pages__btn {
+    background: none;
+    background-image: url('../img/svg/icons/Arrow_left.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 7px;
+    max-width: 16px;
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+.header-slider-pages__btn_right {
+    transform: scale(-1, -1);
+}
+
+.header-slider-left-btns{
+    display: flex;
+    align-items: center;
+    gap: 17px;
+}
+
+.header-slider-left-order-btn {
+    color: rgb(255, 255, 255);
+    font-family: "PT Sans";
+    font-size: 13px;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding: 8px 24px;
+    background: rgb(184, 76, 116);
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.header-slider-left-cart-btn{
+    background: #FFFFFF;
+    background-image: url('../img/svg/icons/cart.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 29px 32px 11px 8px;
+    border-radius: 100%;
+    border: none;
+    outline: none;
+    cursor: pointer;
 }
