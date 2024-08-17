@@ -1,5 +1,4 @@
 .popular-section {
-    background-color: brown;
     display: flex;
     min-height: 672px;
     max-height: 672px;
@@ -14,7 +13,7 @@
     color: rgb(255, 255, 255);
     font-family: "Cormorant Infant";
     font-style: italic;
-    font-size: 250px;
+    font-size: 285px;
     font-weight: 400;
     opacity: 0.05;
     line-height: 56px;

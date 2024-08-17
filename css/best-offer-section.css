@@ -1,0 +1,195 @@
+.best-offer-section {
+    background-color: aqua;
+    padding: 136px 130px 130px 88px;
+
+}
+
+.best-offer-section-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.best-offer-section-slider-pages {
+    padding-top: 0;
+}
+
+.best-offer-section-header-title {
+    color: rgb(5, 46, 76);
+    font-family: "PT Sans";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.best-offer-section-products-cards {
+    background-color: blue;
+    padding-top: 24px;
+}
+
+.best-offer-section-card {
+    max-width: 256px;
+    min-width: 256px;
+    width: 100%;
+    max-height: 536px;
+    min-height: 536px;
+    height: 100%;
+    padding: 16px 16px 40px 16px;
+    background-color: tomato;
+}
+
+.best-offer-section-card__img {
+    background-position: center;
+    background-repeat: no-repeat;
+    max-width: 224px;
+    min-width: 224px;
+    width: 100%;
+    max-height: 278px;
+    min-height: 278px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.best-offer-section-card__img_up {
+    display: flex;
+    align-items: center;
+    gap: 39px;
+    padding: 14px 16px 0 16px;
+}
+
+.best-offer-section-card-sale {
+    color: rgb(184, 76, 116);
+    font-family: "Cormorant Infant";
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: center;
+    padding: 13px 7px;
+    background-color: #FFFFFF;
+    border-radius: 100%;
+}
+
+.best-offer-section-card__img_down {
+    display: flex;
+}
+
+.best-offer-section-card__color {
+    padding: 16px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.best-offer-section-card__color_grey {
+    background-image: url('/img/svg/colors/grey.svg');
+}
+
+.best-offer-section-card__color_green {
+    background-image: url('/img/svg/colors/green.svg');
+}
+
+.best-offer-section-card__color_blue {
+    background-image: url('/img/svg/colors/blue.svg');
+}
+
+.best-offer-section-card__color_gold {
+    background-image: url('/img/svg/colors/gold.svg');
+}
+
+.best-offer-section-card__color_select {
+    background-color: #417A82;
+    background-image: url('/img/svg/icons/Arrow_down_white.svg');
+}
+
+.best-offer-section-card-descr {
+    color: rgb(5, 46, 76);
+    font-family: "PT Sans";
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    padding-top: 24px;
+}
+
+.best-offer-section-card__img-one {
+    background-image: url('/img/png/shutter_green.png');
+}
+
+.best-offer-section-card-price {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding-top: 40px;
+}
+
+.best-offer-section-card-price-new {
+    color: rgb(5, 46, 76);
+    font-family: 'Cormorant Infant';
+    font-style: italic;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: left;
+}
+
+.best-offer-section-card-price-new>span {
+    font-size: 32px;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.best-offer-section-card-price-old {
+    color: rgba(5, 46, 76, 0.2);
+    font-family: 'Cormorant Infant';
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 39px;
+    position: relative;
+   text-decoration: none;
+}
+
+.test::before{
+    border-bottom: 1px solid rgb(184, 76, 116);
+    transform: rotate(-29.22deg);
+    position: absolute;
+    content: "";
+    width: 100%;
+	height: 50%;
+}
+
+.best-offer-section-card-add{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding-top: 17px;
+}
+
+.best-offer-section-card-add__btn{
+    color: rgb(5, 46, 76);
+    font-family: 'PT Sans';
+    font-size: 13px;
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 11px 21px;
+    outline: none;
+    border: 1px solid rgb(5, 46, 76);
+    background: none;
+    cursor: pointer;
+}
+
+.best-offer-section-card-add-cart__btn{
+    background: none;
+    border: none;
+    cursor: pointer;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url('/img/svg/icons/cart_b.svg');
+    padding: 20px;
+}
