@@ -1,7 +1,7 @@
 @import "./header.css";
 @import "./popular-section.css";
-@import "./best-offer-section.css";
-
+@import "./best-offer-products-cards-section.css";
+@import "./best-offer-fieldset-section.css";
 *{
     margin: 0;
     padding: 0;
