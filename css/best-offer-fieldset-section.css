@@ -8,6 +8,11 @@
 
 .best-offer-fieldset {
     border: 1px solid rgb(65, 122, 130);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 56px 0 51px 0;
+
 }
 
 .best-offer-fieldset-legend {
@@ -26,7 +31,6 @@
     font-size: 32px;
     font-weight: 700;
     text-align: center;
-    padding-top: 56px;
 }
 
 .best-offer-fieldset-pages {
@@ -84,7 +88,7 @@
     align-items: center;
 }
 
-.best-offer-fieldset-checkbox__ch[type="checkbox"]  {
+.best-offer-fieldset-checkbox__ch[type="checkbox"] {
     opacity: 0;
 }
 
@@ -93,11 +97,11 @@
     font-family: "PT Sans";
     font-size: 16px;
     font-weight: 400;
-   
+
 }
 
-.best-offer-fieldset-checkbox__span::before{
-    display: inline-block; 
+.best-offer-fieldset-checkbox__span::before {
+    display: inline-block;
     content: "";
     max-width: 16px;
     min-width: 16px;
@@ -109,30 +113,46 @@
     background-color: #FFFFFF;
     border: 2px solid rgb(65, 122, 130);
     position: relative;
-    
+
 }
-.best-offer-fieldset-checkbox__span::after{
-    position: absolute;  
+
+.best-offer-fieldset-checkbox__span::after {
+    position: absolute;
     content: "";
-    display: inline-block;  
+    display: inline-block;
     height: 3px;
     width: 6px;
     border-left: 2px solid rgb(65, 122, 130);
     border-bottom: 2px solid rgb(65, 122, 130);
-    transform: rotate(-45deg);   
+    transform: rotate(-45deg);
     left: 2px;
     top: 2px;
 }
 
-.best-offer-fieldset-checkbox__ch[type="checkbox"]  + .best-offer-fieldset-checkbox__span::after{
+.best-offer-fieldset-checkbox__ch[type="checkbox"]+.best-offer-fieldset-checkbox__span::after {
     content: none;
     /* content: ""; */
 }
-.best-offer-fieldset-checkbox__span[type="checkbox"]:checked  + .best-offer-fieldset-checkbox__span::after{
+
+.best-offer-fieldset-checkbox__span[type="checkbox"]:checked+.best-offer-fieldset-checkbox__span::after {
     /* content: none; */
     content: "";
 }
 
- /* .best-offer-fieldset-checkbox__span input[type="checkbox"]:checked:after {
+/* .best-offer-fieldset-checkbox__span input[type="checkbox"]:checked:after {
     content: "";
 } */
+
+.best-offer-fieldset-next__btn {
+    margin-top: 42px;
+    padding: 8px 24px;
+    background: rgb(255, 255, 255);
+    color: rgb(5, 46, 76);
+    font-family: "PT Sans";
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 17px;
+    text-transform: uppercase;
+    border: 1px solid rgb(5, 46, 76);
+    cursor: pointer;
+}

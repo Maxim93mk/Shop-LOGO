@@ -1,0 +1,130 @@
+.footer {
+    background: rgb(38, 38, 38);
+    padding: 54px 160px 24px 160px;
+}
+
+.footer-up {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    padding-bottom: 47px;
+}
+
+.footer-up-lorem-block,
+.footer-up-contacts-block,
+.footer-up-logo-block {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.footer-up-block-links {
+    color: rgb(255, 255, 255);
+    font-family: "PT Sans";
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 17px;
+    text-decoration: none;
+    max-width: 85px;
+    width: 100%;
+}
+
+.footer-up-logo-block {
+    gap: 10px;
+}
+
+.footer-up-logo-block-descr-logo {
+    color: rgb(255, 255, 255);
+    font-family: "PT Sans";
+    font-size: 33px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.footer-up-logo-block-descr {
+    max-width: 152px;
+    width: 100%;
+    text-align: center;
+}
+
+.footer-up-logo-block-descr-numbers {
+    display: flex;
+    align-items: center;
+    gap: 22px;
+    padding-top: 28px;
+}
+
+.footer-up-logo-block-descr-numb {
+    color: rgb(255, 255, 255);
+    font-family: 'Cormorant Infant';
+    font-size: 25px;
+    font-weight: 700;
+    text-align: left;
+}
+
+.footer-up-calk {
+    border: 1px solid rgb(255, 255, 255);
+    padding: 8px 24px;
+    background-color: rgb(38, 38, 38);
+    color: rgb(255, 255, 255);
+    font-family: "PT Sans";
+    font-size: 13px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.footer-up-calk-block-email {
+    color: rgb(255, 255, 255);
+    font-family: "PT Sans";
+    font-size: 13px;
+    font-weight: 400;
+    text-align: left;
+    max-width: 82px;
+    width: 100%;
+    padding-top: 61px;
+}
+
+.footer-up-calk-block-networks {
+    padding-top: 24px;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.footer-up-calk-block-networks-links {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: "PT Sans";
+    font-size: 13px;
+    font-weight: 700;
+    text-align: left;
+}
+
+.footer-up-calk-block-networks-links:hover {
+    color: rgb(65, 122, 130);
+}
+
+.footer-down {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 16px;
+}
+
+.footer-down-descr {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: "PT Sans";
+    font-size: 13px;
+    font-weight: 400;
+    text-align: left;
+    text-decoration: none;
+}
+
+.footer-down-descr-links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 140px;
+    gap: 16px;
+}
