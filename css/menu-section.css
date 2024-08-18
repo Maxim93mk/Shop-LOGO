@@ -1,0 +1,23 @@
+.menu-section{
+    position: absolute;
+    left: 72px;
+    top: 0;
+    padding: 31px 24px 29px 24px;
+    background: #ff00ff;
+    z-index: 255;
+    max-width: 224px;
+    width: 100%;
+    max-height: 800px;
+    min-height: 800px;
+    height: 100%;
+    transition: all 600ms ease-out;
+    overflow: hidden;
+}
+
+.hidden {
+    transform: translateX(-2000%);
+}
+
+.visible{
+    transform: translateX(0);  
+}
