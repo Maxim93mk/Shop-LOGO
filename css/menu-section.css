@@ -3,7 +3,7 @@
     left: 72px;
     top: 0;
     padding: 31px 24px 29px 24px;
-    background: rgba(255, 255, 255, 0.9);
+    background: rgba(242, 246, 247, 0.9);
     z-index: 255;
     max-width: 224px;
     width: 100%;
@@ -23,8 +23,8 @@
 }
 
 .visible {
-    /* transform: translateX(-72px); */
-    transform: translateX(0);
+    transform: translateX(-72px);
+    /* transform: translateX(0); */
 }
 
 .menu-section-title {

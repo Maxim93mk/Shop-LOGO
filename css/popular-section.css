@@ -82,3 +82,23 @@
     max-width: 308px;
     width: 100%;
 }
+
+.popular-section-left-img-blocks_title {
+    padding-top: 40px;
+    padding-left: 40px;
+    text-transform: uppercase;
+    color: rgb(5, 46, 76);
+    font-family: "Cormorant Infant";
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.popular-section-left-img-blocks_title_white{
+    color: rgb(255, 255, 255);
+}
+
+.popular-section-left-img-blocks_title >span,
+.popular-section-left-img-blocks_title_italic{
+    font-weight: 700;
+    font-style: italic;
+}
