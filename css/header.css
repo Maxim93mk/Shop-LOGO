@@ -195,17 +195,20 @@
     z-index: 0;
 }
 
-.header-menu-links:hover .img {
+.header-menu-links:hover .img , .menu-section-links-block:hover .img  {
     z-index: -1;
     visibility: hidden;
 }
 
-.header-menu-links .imgH {
+.header-menu-links .imgH, .menu-section-links-block .imgH{
     z-index: -1;
     visibility: hidden;
 }
 
-.header-menu-links:hover .imgH {
+.header-menu-links:hover .imgH, .menu-section-links-block:hover .imgH{
     z-index: 1;
     visibility: visible;
+}
+.menu-section-links-block:hover .menu-section-descr{
+    color: #B84C74;
 }
