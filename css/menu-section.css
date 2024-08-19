@@ -2,7 +2,7 @@
     position: absolute;
     left: 72px;
     top: 0;
-    padding: 31px 24px 29px 24px;
+    padding: 33px 24px 29px 24px;
     background: rgba(242, 246, 247, 0.9);
     z-index: 255;
     max-width: 224px;
@@ -63,7 +63,7 @@
 .menu-section-links_item-shutter {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 15px;
 }
 
 .menu-section-links-block {
@@ -92,7 +92,7 @@
     font-size: 13px;
     font-weight: 400;
     text-align: left;
-    background-image: url('/img/svg/icons/search_line.svg');
+    background-image: url('../img/svg/icons/search_line.svg');
     background-position: 9px 7px;
     background-repeat: no-repeat;
 }

@@ -91,24 +91,24 @@
 }
 
 .best-offer-section-card__color_grey {
-    background-image: url('/img/svg/colors/grey.svg');
+    background-image: url('../img/svg/colors/grey.svg');
 }
 
 .best-offer-section-card__color_green {
-    background-image: url('/img/svg/colors/green.svg');
+    background-image: url('../img/svg/colors/green.svg');
 }
 
 .best-offer-section-card__color_blue {
-    background-image: url('/img/svg/colors/blue.svg');
+    background-image: url('../img/svg/colors/blue.svg');
 }
 
 .best-offer-section-card__color_gold {
-    background-image: url('/img/svg/colors/gold.svg');
+    background-image: url('../img/svg/colors/gold.svg');
 }
 
 .best-offer-section-card__color_select {
     background-color: #417A82;
-    background-image: url('/img/svg/icons/Arrow_down_white.svg');
+    background-image: url('../img/svg/icons/Arrow_down_white.svg');
 }
 
 .best-offer-section-card-descr {
@@ -126,19 +126,19 @@
 }
 
 .best-offer-section-card__img-one {
-    background-image: url('/img/png/shutter_green.png');
+    background-image: url('../img/png/shutter_green.png');
 }
 
 .best-offer-section-card__img-two{
-    background-image: url('/img/png/shutter_gold.png');
+    background-image: url('../img/png/shutter_gold.png');
 }
 
 .best-offer-section-card__img-three {
-    background-image: url('/img/png/shutter_grey.png');
+    background-image: url('../img/png/shutter_grey.png');
 }
 
 .best-offer-section-card__img-four{
-    background-image: url('/img/png/shutter_white.png');
+    background-image: url('../img/png/shutter_white.png');
 }
 
 .best-offer-section-card-price {
@@ -209,6 +209,6 @@
     cursor: pointer;
     background-position: center;
     background-repeat: no-repeat;
-    background-image: url('/img/svg/icons/cart_b.svg');
+    background-image: url('../img/svg/icons/cart_b.svg');
     padding: 20px;
 }
