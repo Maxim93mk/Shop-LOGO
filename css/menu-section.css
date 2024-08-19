@@ -1,9 +1,9 @@
-.menu-section{
+.menu-section {
     position: absolute;
     left: 72px;
     top: 0;
     padding: 31px 24px 29px 24px;
-    background: #ff00ff;
+    background: rgba(255, 255, 255, 0.9);
     z-index: 255;
     max-width: 224px;
     width: 100%;
@@ -12,12 +12,102 @@
     height: 100%;
     transition: all 600ms ease-out;
     overflow: hidden;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: rgb(65, 122, 130);
 }
 
 .hidden {
     transform: translateX(-2000%);
 }
 
-.visible{
-    transform: translateX(0);  
+.visible {
+    /* transform: translateX(-72px); */
+    transform: translateX(0);
+}
+
+.menu-section-title {
+    font-family: "PT Sans";
+    text-align: center;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.menu-section-contacts,
+.menu-section-links {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 14px;
+    gap: 4px;
+}
+
+.menu-section-descr {
+    font-family: "PT Sans";
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.menu-section-descr-city {
+    font-size: 10px;
+    text-align: center;
+}
+
+.menu-section-links {
+    padding-top: 27px;
+    align-items: flex-start;
+    list-style: none;
+}
+
+.menu-section-links_item-shutter {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.menu-section-links-block {
+    display: flex;
+    align-items: center;
+    gap: 17px;
+    text-decoration: none;
+    color: rgb(65, 122, 130);
+}
+
+.menu-section-links__item-search {
+    padding-top: 24px;
+}
+
+.menu-section-links-search-line {
+    border: 1px solid rgb(65, 122, 130);
+    border-radius: 20px;
+    max-width: 176px;
+    width: 100%;
+    max-height: 32px;
+    min-height: 32px;
+    height: 100%;
+    padding-left: 43px;
+    color: rgba(65, 122, 130, 0.5);
+    font-family: "PT Sans";
+    font-size: 13px;
+    font-weight: 400;
+    text-align: left;
+    background-image: url('/img/svg/icons/search_line.svg');
+    background-position: 9px 7px;
+    background-repeat: no-repeat;
+}
+
+.menu-section-links-search-line::placeholder {
+    color: rgba(65, 122, 130, 0.5);
+}
+
+.menu-section-links-search-line:focus {
+    outline: 2px solid rgba(65, 122, 130);
+}
+
+.menu-section-about {
+    display: flex;
+    gap: 8px;
+    flex-direction: column;
+    padding-top: 32px;
 }
